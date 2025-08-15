@@ -1,0 +1,40 @@
+{
+  "image_path": "C:\\Users\\sagni\\Downloads\\PlantDocX\\download.jpg",
+  "chosen_class": "Potato___healthy",
+  "chosen_probability": 0.012529,
+  "binary_decision": "Healthy",
+  "note": "Potato (forced preference when available)",
+  "global_top1": {
+    "class": "Tomato_Septoria_leaf_spot",
+    "prob": 0.830055
+  },
+  "top_k": [
+    {
+      "class": "Tomato_Septoria_leaf_spot",
+      "prob": 0.830055
+    },
+    {
+      "class": "Tomato__Tomato_mosaic_virus",
+      "prob": 0.096462
+    },
+    {
+      "class": "Tomato_Late_blight",
+      "prob": 0.052469
+    },
+    {
+      "class": "Potato___healthy",
+      "prob": 0.012529
+    },
+    {
+      "class": "Pepper__bell___Bacterial_spot",
+      "prob": 0.002716
+    }
+  ],
+  "cam_method": "Grad-CAM",
+  "timestamp": "2025-08-15T12:24:38",
+  "artifacts": {
+    "prediction_png": "C:\\Users\\sagni\\Downloads\\PlantDocX\\download_potato_prediction.png",
+    "top5_png": "C:\\Users\\sagni\\Downloads\\PlantDocX\\download_top5.png",
+    "cam_png": "C:\\Users\\sagni\\Downloads\\PlantDocX\\download_cam.png"
+  }
+}
